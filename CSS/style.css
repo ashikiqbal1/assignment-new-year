@@ -33,3 +33,44 @@ header{
     border-radius: 5px;
     margin-top: 32px;
 }
+/* failure section styles */
+
+.failure-container{
+    display: flex;
+    gap: 80px;
+    margin-top: 132px;
+    margin-right: 210px;
+    margin-left: 210px;
+    align-items: center;
+}
+/* .failure-img{
+
+}
+.failure-text{
+   
+} */
+.failure-title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    line-height: 47px;
+    margin-bottom: 24px;
+}
+.failure-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    width: 416px;
+}
+.failure-list{
+    margin-top: 20px;
+}
+.failure-checklist{
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-top: 10px;
+}
+.fa-solid, fa-check{
+    color: #16D887;
+}
