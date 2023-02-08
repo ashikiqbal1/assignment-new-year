@@ -74,3 +74,21 @@ header{
 .fa-solid, fa-check{
     color: #16D887;
 }
+/* develop section styles */
+.develop-container{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    margin-right: 210px;
+    margin-left: 210px;
+    margin-top: 200px;
+}
+.develop-text{
+    width: 50%;
+}
+.develop-img{
+    width: 50%;
+}
+.develop-img img{
+    width: 80%;
+}
