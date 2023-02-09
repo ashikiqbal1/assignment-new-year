@@ -10,8 +10,7 @@ header{
 .header-container{
     text-align: right;
     padding-top: 224px;
-    padding-right: 230px;
-    
+    padding-right: 230px;  
 }
 .header-title{
     font-weight: 700;
@@ -43,12 +42,6 @@ header{
     margin-left: 210px;
     align-items: center;
 }
-/* .failure-img{
-
-}
-.failure-text{
-   
-} */
 .failure-title{
     font-weight: 700;
     font-size: 40px;
@@ -91,4 +84,106 @@ header{
 }
 .develop-img img{
     width: 80%;
+}
+/* my plans section styles */
+.my-plan-container{
+    margin-right: 210px;
+    margin-left: 210px;
+}
+.my-plan-title{
+    text-align: center;
+    margin-top: 200px;
+}
+.plans-list{
+    display: flex;
+    gap: 86px;
+    justify-content: center;
+    margin-top: 100px;
+}
+/* call section styles */
+.call-container{
+    background: linear-gradient(90deg, #005FAC, #005fac00), url(../images/watch.png);
+    background-repeat: no-repeat;
+    height: 300px;
+    margin-right: 210px;
+    margin-left: 210px;
+    margin-top: 130px;
+    margin-bottom: 130px;   
+}
+.call-text{
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 65px;
+}
+/* footer section styles */
+footer{
+    background-color: #151414;
+}
+.footer-section{  
+    height: 210px;
+    display: flex;
+    padding: 130px 230px;
+    gap: 330px;
+}
+.footer-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #FFFFFF;
+}
+.footer-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-top: 16px;
+}
+.footer-address{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-top: 16px;
+
+}
+.footer-icons, img{
+    margin-top: 20px;
+    padding-right: 10px;
+    
+}
+.future-area{
+    width: 50%;
+}
+.subscribe-area{
+    width: 50%;
+}
+#subscribe-title{
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+#btn-email{
+    font-weight: 400;
+    font-size: 18px;
+    color: #F3F3F3;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    background-color: #151414;
+    margin-top: 31px;
+    padding: 22px 26px;
+}
+.btn-subscribe{
+    margin-top: 16px;
+    background: #005FAC;
+    border-radius: 8px;
+    color: #FFFFFF;
+    padding: 20px 30px;
+}
+#footer-copy{
+    color: #FFFFFF;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
 }
